@@ -1,2 +1,12 @@
-# Mathematical-Models-of-Reptile-Populations-Using-Delay-Diferential-Equations-codes
-Códigos del articulo titulado "Mathematical Models of Reptile Populations Using Delay Diferential Equations", originalmente hechos en una versión antigua de Matlab, fueron corregidos a la ultima versión y además, reescritos en Python (recomendado el uso Google Colab)
+# Códigos del artículo "Mathematical Models of Reptile Populations Using Delay Diferential Equations"
+Link del paper original: https://sciences.utsa.edu/labs/erika-camacho/_documents/reports/reptile-populations.pdf
+
+Los códigos en Python hacen uso de la librería **ddeint** para resolver las ecuaciones diferenciales de retardo de forma numérica.
+Para instalar la libreria:
+```
+pip install ddeint
+```
+Si estás usando Google Colab (**recomendado**)
+```
+!pip install ddeint
+```
